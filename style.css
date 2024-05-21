@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  font-family: Poppins, sans-serif;
+  background: rgb(220, 179, 179);
+}
+.pedro-p {
+  background-color: #f5dad8;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  aspect-ratio: 1;
+  animation: rotate 6s linear infinite;
+
+  img {
+    display: block;
+    width: 100%;
+    
+    animation: pulse .2s linear infinite alternate;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) ;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: translateY(-25%)
+  }
+  to {
+    transform:translateY(10%)
+  };
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
